@@ -162,4 +162,6 @@ This project demonstrates:
 - Proper use of design patterns  
 - Practical simulation of real-world delivery systems  
 
+---
+
 ⭐ If you like this project – please leave a star! ⭐  

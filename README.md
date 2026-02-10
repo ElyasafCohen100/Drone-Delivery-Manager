@@ -18,9 +18,9 @@ The project was developed as part of a **Windows Systems Engineering mini projec
 
 The project is built using a **3-Layer Architecture**:
 
-📁 Presentation Layer (WPF)
-📁 Business Logic Layer (BL)
-📁 Data Access Layer (DAL)
+- 📁 Presentation Layer (WPF)
+- 📁 Business Logic Layer (BL)
+- 📁 Data Access Layer (DAL)
 
 
 ### 🔹 Presentation Layer (WPF)
@@ -123,8 +123,8 @@ This prevents data conflicts and ensures clean initialization.
 
 ## 🧑‍💻 Contributors 🧑‍💻
 
-[![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-black?style=for-the-badge&logo=github)](https://github.com/ElyasafCohen100)  
 [![Yakir Yohanan](https://img.shields.io/badge/GitHub-yohanan400-black?style=for-the-badge&logo=github)](https://github.com/yohanan400)
+[![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-black?style=for-the-badge&logo=github)](https://github.com/ElyasafCohen100)  
 
 ---
 

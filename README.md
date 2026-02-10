@@ -20,12 +20,12 @@
 
 ### 💾 Data & Infrastructure 💾
 ![XML](https://img.shields.io/badge/XML-Data_Storage-FF8C00?style=for-the-badge)
-![Factory Pattern](https://img.shields.io/badge/Factory_Pattern-Design-2E8B57?style=for-the-badge)
+![Factory Pattern](https://img.shields.io/badge/Factory_Design_Pattern-2E8B57?style=for-the-badge)
 ![Singleton Pattern](https://img.shields.io/badge/Singleton-Design_Pattern-8A2BE2?style=for-the-badge)
 
 ### 🔄 Runtime & Simulation 🔄
-![BackgroundWorker](https://img.shields.io/badge/BackgroundWorker-Multithreading-3C3C3D?style=for-the-badge)
 ![Simulation Engine](https://img.shields.io/badge/Drone_Simulator-Life_Cycle-2496ED?style=for-the-badge)
+![BackgroundWorker](https://img.shields.io/badge/BackgroundWorker-Multithreading-3C3C3D?style=for-the-badge)
 
 ---
 
@@ -107,10 +107,10 @@ No code changes are required ✔️
 The project includes a **drone life-cycle simulator** that simulates real-world drone behavior.
 
 ### ▶️ How to Run the Simulator
-1. Log in as **Admin**
-2. Open **Drone List**
-3. Select a drone (double click)
-4. Click the **Simulator** button
+1. Log in as **Admin** 🤵
+2. Open **Drone List** 📝
+3. Select a drone (double click) 🚁
+4. Click the **Simulator** button 😇
 
 🌱 The simulator runs using `BackgroundWorker` for smooth UI performance. 🌱
 
@@ -120,11 +120,11 @@ The project includes a **drone life-cycle simulator** that simulates real-world 
 
 For smooth usage of the XML-based DAL implementation:
 
-1. Click the **Reset** button on the main window
-2. Close the application
-3. Restart the project
+1. Click the **Reset** button on the main window 🔘
+2. Close the application 🔒
+3. Restart the project 🔄
 
-This prevents data conflicts and ensures clean initialization.
+This prevents data conflicts and ensures clean initialization. 🧴🫧
 
 ---
 
@@ -148,7 +148,6 @@ This prevents data conflicts and ensures clean initialization.
 
 - **Yakir Yohanan** 🤘😌 
 - **Elyasaf Cohen** 👊😎
-- 
 [![Yakir Yohanan](https://img.shields.io/badge/GitHub-yohanan400-FF8C00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yohanan400)  
 [![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ElyasafCohen100)
 

@@ -1,7 +1,31 @@
 # 🚁 Drone Delivery Manager – .NET 🚁
 
+![GitHub stars](https://img.shields.io/github/stars/ElyasafCohen100/Drone-Delivery-Manager-dotnet?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ElyasafCohen100/Drone-Delivery-Manager-dotnet?style=social)
+
 > **Mini Project | Windows Systems Engineering**  
 > A full management system for a drone-based delivery company
+
+---
+
+## 🏷️ Technologies & Tools
+
+### 🖥️ Frontend 🖥️
+![WPF](https://img.shields.io/badge/WPF-Desktop_App-0078D6?style=for-the-badge)
+![XAML](https://img.shields.io/badge/XAML-UI_Design-0A66C2?style=for-the-badge)
+
+### ⚙️ Backend & Core ⚙️
+![C#](https://img.shields.io/badge/C%23-.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+### 💾 Data & Infrastructure 💾
+![XML](https://img.shields.io/badge/XML-Data_Storage-FF8C00?style=for-the-badge)
+![Factory Pattern](https://img.shields.io/badge/Factory_Pattern-Design-2E8B57?style=for-the-badge)
+![Singleton Pattern](https://img.shields.io/badge/Singleton-Design_Pattern-8A2BE2?style=for-the-badge)
+
+### 🔄 Runtime & Simulation 🔄
+![BackgroundWorker](https://img.shields.io/badge/BackgroundWorker-Multithreading-3C3C3D?style=for-the-badge)
+![Simulation Engine](https://img.shields.io/badge/Drone_Simulator-Life_Cycle-2496ED?style=for-the-badge)
 
 ---
 
@@ -21,7 +45,6 @@ The project is built using a **3-Layer Architecture**:
 - 📁 Presentation Layer (WPF)
 - 📁 Business Logic Layer (BL)
 - 📁 Data Access Layer (DAL)
-
 
 ### 🔹 Presentation Layer (WPF)
 - Graphical user interface
@@ -89,7 +112,7 @@ The project includes a **drone life-cycle simulator** that simulates real-world 
 3. Select a drone (double click)
 4. Click the **Simulator** button
 
-🎍 The simulator runs using `BackgroundWorker` for smooth UI performance. 🎍
+🌱 The simulator runs using `BackgroundWorker` for smooth UI performance. 🌱
 
 ---
 
@@ -116,7 +139,7 @@ This prevents data conflicts and ensures clean initialization.
 - Password: `admin`
 
 ### ⚡ VIP Mode
-- The **VIP** button allows login without credentials
+- The **VIP** button allows login without credentials  
 - Intended for debugging and development purposes
 
 ---
@@ -124,36 +147,19 @@ This prevents data conflicts and ensures clean initialization.
 ## 🧑‍💻 Contributors 🧑‍💻
 
 - **Yakir Yohanan** 🤘😌 
-- **Elyasaf Cohen** 👊😎 
-
-[![Yakir Yohanan](https://img.shields.io/badge/GitHub-yohanan400-black?style=for-the-badge&logo=github)](https://github.com/yohanan400)
-[![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-black?style=for-the-badge&logo=github)](https://github.com/ElyasafCohen100)
-
----
-
-## 🎯 Tech Stack 🎯
-
-- WPF
-- C# .NET
-- XML Storage
-- BackgroundWorker
-- 3-Layer Architecture
-- Drone Simulation Engine
-- Factory Design Pattern
-- Singleton Design Pattern
+- **Elyasaf Cohen** 👊😎
+- 
+[![Yakir Yohanan](https://img.shields.io/badge/GitHub-yohanan400-FF8C00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yohanan400)  
+[![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-0A66C2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ElyasafCohen100)
 
 ---
 
 ## 💥 Final Notes 💥
 
 This project demonstrates:
-- Clean architecture
-- Strong separation of concerns
-- Proper use of design patterns
-- Practical simulation of real-world systems
-  
-Enjoy exploring the project 🚀
+- Clean architecture  
+- Strong separation of concerns  
+- Proper use of design patterns  
+- Practical simulation of real-world delivery systems  
 
----
-
-⭐ If you like this project – please leave a star! ⭐
+⭐ If you like this project – please leave a star! ⭐  

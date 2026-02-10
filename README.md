@@ -1,11 +1,11 @@
-# 🚁 Drone Delivery Manager – .NET
+# 🚁 Drone Delivery Manager – .NET 🚁
 
 > **Mini Project | Windows Systems Engineering**  
 > A full management system for a drone-based delivery company
 
 ---
 
-## ✨ Overview
+## ✨ Overview ✨
 
 **Drone Delivery Manager** is a desktop application designed to manage a drone delivery company.  
 The system supports full management of drones, parcels, customers, and base stations, including a **live drone simulator**.
@@ -14,7 +14,7 @@ The project was developed as part of a **Windows Systems Engineering mini projec
 
 ---
 
-## 🧱 System Architecture
+## 🧱 System Architecture 🧱
 
 The project is built using a **3-Layer Architecture**:
 
@@ -47,7 +47,7 @@ The DAL is implemented in **two different ways**:
 
 ---
 
-## 🏭 Factory Design Pattern
+## 🏭 Factory Design Pattern 🏭
 
 The system uses the **Factory Design Pattern** to control which DAL implementation is active.
 
@@ -62,7 +62,7 @@ No code changes are required ✔️
 
 ---
 
-## 👤 User Interfaces
+## 👤 User Interfaces 👤
 
 ### 👥 Customer Interface
 - View personal parcels
@@ -79,7 +79,7 @@ No code changes are required ✔️
 
 ---
 
-## 🎮 Drone Simulator
+## 🎮 Drone Simulator 🎮
 
 The project includes a **drone life-cycle simulator** that simulates real-world drone behavior.
 
@@ -93,7 +93,7 @@ The project includes a **drone life-cycle simulator** that simulates real-world 
 
 ---
 
-## 🔄 XML DAL – Important Note
+## 🔄 XML DAL – Important Note 🔄
 
 For smooth usage of the XML-based DAL implementation:
 
@@ -121,19 +121,19 @@ This prevents data conflicts and ensures clean initialization.
 
 ---
 
-## 🧑‍💻 Contributors
+## 🧑‍💻 Contributors 🧑‍💻
 
 This project was developed by:
 
-- **Elyasaf Cohen**  
+- **Elyasaf Cohen**  🌟
 GitHub: https://github.com/ElyasafCohen100  
 
-- **Yakir Yohanan**  
+- **Yakir Yohanan**  🌟
 GitHub: https://github.com/yohanan400  
 
 ---
 
-## 🎯 Tech Stack
+## 🎯 Tech Stack 🎯
 
 - C# .NET
 - WPF
@@ -145,7 +145,7 @@ GitHub: https://github.com/yohanan400
 
 ---
 
-## ❤️ Final Notes
+## 💥 Final Notes 💥
 
 This project demonstrates:
 - Clean architecture

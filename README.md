@@ -123,8 +123,8 @@ This prevents data conflicts and ensures clean initialization.
 
 ## 🧑‍💻 Contributors 🧑‍💻
 
-[![Yakir Yohanan](https://img.shields.io/badge/GitHub-yohanan400-black?style=for-the-badge&logo=github)](https://github.com/yohanan400)
-[![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-black?style=for-the-badge&logo=github)](https://github.com/ElyasafCohen100)  
+⚡️ [![Yakir Yohanan](https://img.shields.io/badge/GitHub-yohanan400-black?style=for-the-badge&logo=github)](https://github.com/yohanan400) ⚡️
+⚡️ [![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-black?style=for-the-badge&logo=github)](https://github.com/ElyasafCohen100) ⚡️
 
 ---
 

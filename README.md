@@ -32,6 +32,7 @@
 ## ✨ Overview ✨
 
 **Drone Delivery Manager** is a desktop application designed to manage a drone delivery company.  
+
 The system supports full management of drones, parcels, customers, and base stations, including a **live drone simulator**.
 
 The project was developed as part of a **Windows Systems Engineering mini project**, with a strong focus on clean architecture, separation of concerns, and proper design patterns.

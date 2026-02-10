@@ -164,4 +164,4 @@ This project demonstrates:
 
 ---
 
-⭐ If you like this project – please leave a star! ⭐  
+> ✨ If you like this project – please leave a star! ✨

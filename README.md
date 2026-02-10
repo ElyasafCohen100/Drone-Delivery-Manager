@@ -93,7 +93,7 @@ The project includes a **drone life-cycle simulator** that simulates real-world 
 
 ---
 
-## 🔄 XML DAL – Important Note 🔄
+## 🔄 XML DAL – Important Note
 
 For smooth usage of the XML-based DAL implementation:
 
@@ -105,7 +105,7 @@ This prevents data conflicts and ensures clean initialization.
 
 ---
 
-## 🔐 Login Credentials
+## 🔐 Login Credentials 🔐
 
 ### 👤 Customers
 - Username: `customer0`, `customer1`, ...
@@ -123,13 +123,8 @@ This prevents data conflicts and ensures clean initialization.
 
 ## 🧑‍💻 Contributors 🧑‍💻
 
-This project was developed by:
-
-- **Elyasaf Cohen**  🌟
-GitHub: https://github.com/ElyasafCohen100  
-
-- **Yakir Yohanan**  🌟
-GitHub: https://github.com/yohanan400  
+[![Elyasaf Cohen](https://img.shields.io/badge/GitHub-ElyasafCohen100-black?style=for-the-badge&logo=github)](https://github.com/ElyasafCohen100)  
+[![Yakir Yohanan](https://img.shields.io/badge/GitHub-yohanan400-black?style=for-the-badge&logo=github)](https://github.com/yohanan400)
 
 ---
 

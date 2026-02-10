@@ -126,10 +126,10 @@ This prevents data conflicts and ensures clean initialization.
 This project was developed by:
 
 - **Elyasaf Cohen**  
-https://github.com/ElyasafCohen100  
+GitHub: https://github.com/ElyasafCohen100  
 
 - **Yakir Yohanan**  
-https://github.com/yohanan400  
+GitHub: https://github.com/yohanan400  
 
 ---
 
@@ -152,7 +152,9 @@ This project demonstrates:
 - Strong separation of concerns
 - Proper use of design patterns
 - Practical simulation of real-world systems
-
-If you reached this point —  
-**100 in the exam, with God’s help** 💯🙏  
+  
 Enjoy exploring the project 🚀
+
+---
+
+⭐ If you like this project – please leave a star! ⭐

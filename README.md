@@ -62,10 +62,10 @@ No code changes are required ✔️
 
 ---
 
-## 👤 User Interfaces 👤
+## 🪴 User Interfaces 🪴
 
 ### 👥 Customer Interface
-- View personal parcels
+- View personal parcels 📦
 - Create new parcels for delivery 📦
 
 ### 🛠️ Admin / Manager Interface
@@ -89,7 +89,7 @@ The project includes a **drone life-cycle simulator** that simulates real-world 
 3. Select a drone (double click)
 4. Click the **Simulator** button
 
-🧠 The simulator runs using `BackgroundWorker` for smooth UI performance.
+🎍 The simulator runs using `BackgroundWorker` for smooth UI performance. 🎍
 
 ---
 
@@ -130,13 +130,14 @@ This prevents data conflicts and ensures clean initialization.
 
 ## 🎯 Tech Stack 🎯
 
-- C# .NET
 - WPF
-- 3-Layer Architecture
-- Factory Design Pattern
+- C# .NET
 - XML Storage
 - BackgroundWorker
+- 3-Layer Architecture
 - Drone Simulation Engine
+- Factory Design Pattern
+- Singleton Design Pattern
 
 ---
 

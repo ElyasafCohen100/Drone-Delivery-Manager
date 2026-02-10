@@ -1,35 +1,158 @@
-# Drone-Delivery-Manager-dotnet
+# 🚁 Drone Delivery Manager – .NET
 
-This project is part of "mini project in windows systems". 
-In this project we develop delivery company by drones.
+> **Mini Project | Windows Systems Engineering**  
+> A full management system for a drone-based delivery company
 
-The project implements the 3-layers model in C#.NET.
+---
 
-The presentation layer implemented in WPF. We build two user interfaces, one for the customer and one for the managers.
-The customer can see his parcels and add new parcels to send.
+## ✨ Overview
 
-The manager (admin) can see the lists of all drones in the company, all base-stations, customers, amd parcels list.
-In each list he can choose one item in the list and display his extend details.
+**Drone Delivery Manager** is a desktop application designed to manage a drone delivery company.  
+The system supports full management of drones, parcels, customers, and base stations, including a **live drone simulator**.
 
-Also, we implements the DAL twice. In one implementation we store all the data in lists, therefore all the details delete every time we close the project.
-The second implementation we save all the data in xml files to make sure we don't lose any data every time we close the project.
+The project was developed as part of a **Windows Systems Engineering mini project**, with a strong focus on clean architecture, separation of concerns, and proper design patterns.
 
-We implement the Factory design pattern to control on those two implemetation, and to switch between the implementation you just need to change the 3-rd line in 'dal-config.xml' to the relevant elements there.
+---
 
-In the project we also create a simulator to simulate a life-sycle of one drone in the company. To turn on the simulator you first need to:
-1. Login as admin.
-2. Select 'Drone list'.
-3. Select one drone. (duble click)
-4. Click on the 'simulator' button.
+## 🧱 System Architecture
 
-The simulator work with BackgroundWorker. 
+The project is built using a **3-Layer Architecture**:
 
-For fluent use in the xml DAL implementation, we recommend you to first click on the 'reset' button on the main window and restart the project.
+📁 Presentation Layer (WPF)
+📁 Business Logic Layer (BL)
+📁 Data Access Layer (DAL)
 
-The user names and paswords:
-for customers: usernames - customer0, customer1, etc. and the passwords is the same as the usernames.
-for managers its: admin for the username and password.
 
-The VIP button is for login without username and password (for debugging uses).
+### 🔹 Presentation Layer (WPF)
+- Graphical user interface
+- Two separate interfaces:
+  - 👤 **Customer UI**
+  - 🛠️ **Admin / Manager UI**
 
-Hope you will like this.
+### 🔹 Business Logic Layer (BL)
+- Handles all business rules
+- Manages drones, parcels, customers, and base stations
+- Controls the drone life-cycle simulation
+
+### 🔹 Data Access Layer (DAL)
+The DAL is implemented in **two different ways**:
+
+1. **In-Memory Lists**  
+   - Data is stored in memory only  
+   - All data is lost when the application is closed
+
+2. **XML-Based Storage**  
+   - Data is stored persistently in XML files  
+   - Data is preserved between application runs
+
+---
+
+## 🏭 Factory Design Pattern
+
+The system uses the **Factory Design Pattern** to control which DAL implementation is active.
+
+### 🔄 Switching DAL Implementation
+1. Open the file:
+dal-config.xml
+
+2. Change the **third line** to the desired DAL implementation
+3. Restart the application
+
+No code changes are required ✔️
+
+---
+
+## 👤 User Interfaces
+
+### 👥 Customer Interface
+- View personal parcels
+- Create new parcels for delivery 📦
+
+### 🛠️ Admin / Manager Interface
+- View and manage:
+- 🚁 Drones
+- 🧍 Customers
+- 🏢 Base Stations
+- 📦 Parcels
+- Display extended details for each entity
+- Run the drone simulator
+
+---
+
+## 🎮 Drone Simulator
+
+The project includes a **drone life-cycle simulator** that simulates real-world drone behavior.
+
+### ▶️ How to Run the Simulator
+1. Log in as **Admin**
+2. Open **Drone List**
+3. Select a drone (double click)
+4. Click the **Simulator** button
+
+🧠 The simulator runs using `BackgroundWorker` for smooth UI performance.
+
+---
+
+## 🔄 XML DAL – Important Note
+
+For smooth usage of the XML-based DAL implementation:
+
+1. Click the **Reset** button on the main window
+2. Close the application
+3. Restart the project
+
+This prevents data conflicts and ensures clean initialization.
+
+---
+
+## 🔐 Login Credentials
+
+### 👤 Customers
+- Username: `customer0`, `customer1`, ...
+- Password: same as the username
+
+### 🛠️ Admin
+- Username: `admin`
+- Password: `admin`
+
+### ⚡ VIP Mode
+- The **VIP** button allows login without credentials
+- Intended for debugging and development purposes
+
+---
+
+## 🧑‍💻 Contributors
+
+This project was developed by:
+
+- **Elyasaf Cohen**  
+https://github.com/ElyasafCohen100  
+
+- **Yakir Yohanan**  
+https://github.com/yohanan400  
+
+---
+
+## 🎯 Tech Stack
+
+- C# .NET
+- WPF
+- 3-Layer Architecture
+- Factory Design Pattern
+- XML Storage
+- BackgroundWorker
+- Drone Simulation Engine
+
+---
+
+## ❤️ Final Notes
+
+This project demonstrates:
+- Clean architecture
+- Strong separation of concerns
+- Proper use of design patterns
+- Practical simulation of real-world systems
+
+If you reached this point —  
+**100 in the exam, with God’s help** 💯🙏  
+Enjoy exploring the project 🚀

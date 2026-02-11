@@ -20,7 +20,7 @@
 
 ### 💾 Data & Infrastructure 💾
 ![XML](https://img.shields.io/badge/XML-Data_Storage-FF8C00?style=for-the-badge)
-![Factory Pattern](https://img.shields.io/badge/Factory_Design_Pattern-2E8B57?style=for-the-badge)
+![Factory Pattern](https://img.shields.io/badge/Factory-Design_Pattern-2E8B57?style=for-the-badge)
 ![Singleton Pattern](https://img.shields.io/badge/Singleton-Design_Pattern-8A2BE2?style=for-the-badge)
 
 ### 🔄 Runtime & Simulation 🔄
